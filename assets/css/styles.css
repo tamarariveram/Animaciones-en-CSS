@@ -198,32 +198,59 @@ footer {
       "cursos"
       "pie-pag";
     grid-template-columns: 1fr;
+    padding: 20px;
   }
 
-  aside{
+  /*CSS menu mobile*/
+
+  aside {
     position: static;
+    align-items: center;
     width: 100%;
     height: auto;
     padding: 10px;
     gap: 10px;
   }
 
-  .logo{
+  .logo {
     width: 25%;
   }
 
-  menu ul{
+  menu ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    column-gap: 20px;
     font-size: 0.9em;
   }
 
-  li{
+  li {
     margin: 0;
     padding: 5px;
   }
 
+  /*CSS Contenido principal mobile*/
+
+  main {
+    padding: 20px 10px;
+    gap: 10px;
+  }
+
+  .cursos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .curso-individual:hover{
+    transform: translateY(-6px);
+  }
+
+/*CSS Pie de Página mobile*/
+
+footer{
+  margin: auto;
+  flex-direction: column-reverse;
+  align-items: center;
 }
 
+}
