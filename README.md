@@ -10,6 +10,7 @@ https://tamarariveram.github.io/Animaciones-en-CSS-Cursos-Online/
 
 ## Estructura del proyecto
 
+```bash
 📂 Layout-animaciones-css
 ├── 📄 README.md
 ├── 📂 assets
