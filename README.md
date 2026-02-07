@@ -10,10 +10,7 @@ https://tamarariveram.github.io/Animaciones-en-CSS-Cursos-Online/
 
 ## Tecnologías
 
-- HTML5
-- CSS3
-- Grid Layout
-- Flexbox
+![Tech](https://skillicons.dev/icons?i=html,css,ai)
 
 ## Estructura del proyecto
 
